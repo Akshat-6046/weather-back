@@ -6,7 +6,7 @@ headers = {"Content-type": "application/json", "Accept": "text/plain"}
 # weather api params
 paramsWeatherApi = {
     "key": "dac9e99825dc41bb9e1121322240501",  # personal weather api key used
-    "days": 3,  # 3 days forecast
+    "days": 4,  # 3 days forecast
     "aqi": "no",
     "alerts": "no",
 }
