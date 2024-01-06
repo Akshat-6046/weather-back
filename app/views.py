@@ -59,5 +59,4 @@ def getWeather(request):
         if data.get("error") != None:  #for error if city data not available
             return Response(data={"error": "Cannot find weather update of selected city"}, status=400,headers=headers)
         else:
-            print(data, "ddddd")
             return Response(data=data,headers=headers)
